@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+   
+    width: auto; 
+    height: auto; 
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+img:nth-child(1) {
+    filter: grayscale(80%) blur(3px);
+}
+
+img:nth-child(2) {
+    filter: sepia(60%) contrast(120%);
+}
+
+img:nth-child(3) {
+    filter: hue-rotate(180deg) brightness(110%);
+}
+
+.copyright {
+    font-size: 0.8em;
+    color: #777;
+}

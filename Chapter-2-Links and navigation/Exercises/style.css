@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+    background-color: lightgray;
+    color: black;
+    font-size: 0.6vw;
+}
+
+nav {
+    background-color: gray;
+    padding: 0.3vw;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.6vw;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+.content {
+    background-color: white;
+    padding: 0.9vw;
+    margin-top: 0.6vw;
+    border: 1px solid silver;
+}
+
+h1, h2 {
+    color: darkblue;
+    font-size: 1.2vw;
+}
+
+h2 {
+    font-size: 1vw;
+}
+
+ul, ol {
+    list-style-type: circle;
+    margin-left: 1.2vw;
+    font-size: 1vw;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1vw;
+    line-height: 1.5;
+        }
+
+li {
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+}
+
+.link-area {
+    text-align: center;
+    margin-top: 1.2vw;
+}
+
+.watch-button {
+    background-color: lightgreen;
+    color: white;
+    padding: 0.4vw 0.9vw;
+    text-decoration: none;
+    border-radius: 0.3vw;
+    font-size: 0.6vw;
+}
+
+.watch-button:hover {
+    background-color: green;
+}
